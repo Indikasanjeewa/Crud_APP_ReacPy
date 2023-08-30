@@ -28,11 +28,11 @@ def DataList(items, filter_by_priority=None, sort_by_priority=False):
 @component
 def TodoList():
     tasks = [
-        {"id": 0, "text": "breakfast", "priority": 0},
-        {"id": 1, "text": "Feed the dog", "priority": 0},
+        {"id": 0, "text": "Breakfast123456", "priority": 0},
+        {"id": 1, "text": "feed the dog", "priority": 0},
         {"id": 2, "text": "Do laundry", "priority": 2},
         {"id": 3, "text": "Go on a run", "priority": 1},
-        {"id": 4, "text": "Clean the house", "priority": 2},
+        {"id": 4, "text": "clean the house", "priority": 2},
         {"id": 5, "text": "Go to the grocery store", "priority": 2},
         {"id": 6, "text": "Do some coding", "priority": 1},
         {"id": 7, "text": "Read a book", "priority": 1},
